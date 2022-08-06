@@ -1,0 +1,841 @@
+2022/07/17 15:33:16 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:486
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akmalo/index.php/
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/17 15:33:16 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:486
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akmalo/index.php/
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/17 15:33:22 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:486
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/akmalo/index.php/
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/17 15:33:49 [error] [php] include(Kategori_kontak.php): failed to open stream: No such file or directory (/Volumes/Data Ku/ROOT_WEB/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(72): spl_autoload_call()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSimpan_kategori_kontak()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(13): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/simpan_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (72)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (13)
+2022/07/17 15:34:40 [error] [php] include(Kategori_kontak.php): failed to open stream: No such file or directory (/Volumes/Data Ku/ROOT_WEB/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(72): spl_autoload_call()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSimpan_kategori_kontak()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(13): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/simpan_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (72)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (13)
+2022/07/17 15:34:44 [error] [php] include(Kategori_kontak.php): failed to open stream: No such file or directory (/Volumes/Data Ku/ROOT_WEB/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(72): spl_autoload_call()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSimpan_kategori_kontak()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(13): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/simpan_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (72)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (13)
+2022/07/17 15:35:08 [error] [exception.CException] CException: Property "Kategori_kontakTbl.nama_kategori_kontak" is not defined. in /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('nama_kategori_k...', '3434fdfdf')
+#1 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(75): CActiveRecord->__set('nama_kategori_k...', '3434fdfdf')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSimpan_kategori_kontak()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('simpan_kategori...')
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/simpan_kat...')
+#8 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/akmalo/index.php/site/simpan_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/17 15:39:27 [error] [exception.CException] CException: Property "Kategori_kontakTbl.nama_kategori_kontak" is not defined. in /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('nama_kategori_k...', '3434fdfdf')
+#1 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(75): CActiveRecord->__set('nama_kategori_k...', '3434fdfdf')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSimpan_kategori_kontak()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('simpan_kategori...')
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/simpan_kat...')
+#8 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(18): CApplication->run()
+#10 {main}
+REQUEST_URI=/akmalo/index.php/site/simpan_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/17 15:39:43 [error] [exception.CException] CException: Property "Kategori_kontakTbl.nama_kategori_kontak" is not defined. in /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('nama_kategori_k...', '3434')
+#1 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(75): CActiveRecord->__set('nama_kategori_k...', '3434')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSimpan_kategori_kontak()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('simpan_kategori...')
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/simpan_kat...')
+#8 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(18): CApplication->run()
+#10 {main}
+REQUEST_URI=/akmalo/index.php/site/simpan_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/17 15:40:01 [error] [exception.CException] CException: Property "Kategori_kontakTbl.nama_kategori_kontak" is not defined. in /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('nama_kategori_k...', '3434')
+#1 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(75): CActiveRecord->__set('nama_kategori_k...', '3434')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSimpan_kategori_kontak()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('simpan_kategori...')
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/simpan_kat...')
+#8 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(18): CApplication->run()
+#10 {main}
+REQUEST_URI=/akmalo/index.php/site/simpan_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/17 15:40:22 [error] [exception.CException] CException: Property "Kategori_kontakTbl.nama_kategori_kontak" is not defined. in /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CComponent.php:173
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/db/ar/CActiveRecord.php(162): CComponent->__set('nama_kategori_k...', '3434')
+#1 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(75): CActiveRecord->__set('nama_kategori_k...', '3434')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSimpan_kategori_kontak()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('simpan_kategori...')
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/simpan_kat...')
+#8 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/akmalo/index.php/site/simpan_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/19 09:57:26 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "edit". in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:486
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(270): CController->missingAction('edit')
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('edit')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/edit')
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/akmalo/index.php/site/edit
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/19 09:57:59 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:73)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/19 09:58:11 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:73)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 08:20:56 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_kategori_kontak='2263080665'' at line 1. The SQL statement executed was: SELECT * FROM kategori_kontak WHRE id_kategori_kontak='2263080665'.
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 08:20:56 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_kategori_kontak='2263080665'' at line 1. The SQL statement executed was: SELECT * FROM kategori_kontak WHRE id_kategori_kontak='2263080665' in /Volumes/Data Ku/ROOT_WEB/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(73): CDbCommand->queryRow()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionGet_kategori_kontak()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('get_kategori_ko...')
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/get_katego...')
+#8 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/20 08:20:56 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_kategori_kontak='2263080665'' at line 1. The SQL statement executed was: SELECT * FROM kategori_kontak WHRE id_kategori_kontak='2263080665'.
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 08:20:56 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_kategori_kontak='2263080665'' at line 1. The SQL statement executed was: SELECT * FROM kategori_kontak WHRE id_kategori_kontak='2263080665' in /Volumes/Data Ku/ROOT_WEB/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(73): CDbCommand->queryRow()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionGet_kategori_kontak()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('get_kategori_ko...')
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/get_katego...')
+#8 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/20 08:21:01 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_kategori_kontak='2263080665'' at line 1. The SQL statement executed was: SELECT * FROM kategori_kontak WHRE id_kategori_kontak='2263080665'.
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 08:21:01 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_kategori_kontak='2263080665'' at line 1. The SQL statement executed was: SELECT * FROM kategori_kontak WHRE id_kategori_kontak='2263080665' in /Volumes/Data Ku/ROOT_WEB/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(73): CDbCommand->queryRow()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionGet_kategori_kontak()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('get_kategori_ko...')
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/get_katego...')
+#8 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/20 08:21:01 [error] [system.db.CDbCommand] CDbCommand::fetch() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_kategori_kontak='2263080665'' at line 1. The SQL statement executed was: SELECT * FROM kategori_kontak WHRE id_kategori_kontak='2263080665'.
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 08:21:01 [error] [exception.CDbException] CDbException: CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'id_kategori_kontak='2263080665'' at line 1. The SQL statement executed was: SELECT * FROM kategori_kontak WHRE id_kategori_kontak='2263080665' in /Volumes/Data Ku/ROOT_WEB/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/db/CDbCommand.php(415): CDbCommand->queryInternal('fetch', Array, Array)
+#1 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(73): CDbCommand->queryRow()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionGet_kategori_kontak()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('get_kategori_ko...')
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/get_katego...')
+#8 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#9 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#10 {main}
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/20 08:41:58 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:97)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/update_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (97)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 08:54:50 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hapus_kategori_kontak". in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('hapus_kategori_...')
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/akmalo/index.php/hapus_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/20 08:55:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "hapus_kategori_kontak". in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('hapus_kategori_...')
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#2 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#3 {main}
+REQUEST_URI=/akmalo/index.php/hapus_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/20 08:55:20 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:337
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('hapus_kategori_...')
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/hapus_kate...')
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#7 {main}
+REQUEST_URI=/akmalo/index.php/site/hapus_kategori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/20 08:56:17 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:111)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/hapus_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (111)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 08:56:41 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:111)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/hapus_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (111)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 14:26:08 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:486
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/akmalo/index.php/
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/20 14:41:08 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:73)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 14:41:12 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:73)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 14:41:12 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:73)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 14:41:27 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:73)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 14:41:27 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:73)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/get_kategori_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (73)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/20 14:41:46 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "get_kategkategori kontakori_kontak". in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:486
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(270): CController->missingAction('get_kategkatego...')
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('get_kategkatego...')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/get_kategk...')
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/akmalo/index.php/site/get_kategkategori+kontakori_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/21 09:25:20 [error] [php] include(Kontak.php): failed to open stream: No such file or directory (/Volumes/Data Ku/ROOT_WEB/yii/framework/YiiBase.php:463)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php(24): spl_autoload_call()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/actions/CInlineAction.php(49): SiteController->actionSimpan_kontak()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#6 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#8 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/simpan_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (24)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:25:47 [error] [php] Undefined index: no_induk (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:26)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/simpan_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (26)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:25:56 [error] [php] Undefined index: nomor_induk (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:26)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/simpan_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (26)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:08 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:08 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:12 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:12 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:15 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:15 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:17 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:17 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:30 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:30 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:41 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:41 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:44 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:29:44 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:30:12 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:30:24 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:30:24 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:30:49 [error] [php] Undefined index:  nomor_induk (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:30:49 [error] [php] Undefined index:  nomor_induk (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:31:00 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:31:00 [error] [php] Undefined index:  nim (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:12)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (12)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:31:17 [error] [php] Undefined index: nomor_handphoe (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:14)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (14)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:31:17 [error] [php] Undefined index: nomor_handphoe (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:14)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (14)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:31:28 [error] [php] Undefined index: nomor_handphone (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:14)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (14)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 09:31:28 [error] [php] Undefined index: nomor_handphone (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:14)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/data_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (14)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/21 10:38:46 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:337
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('hapus_kontak')
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/hapus_kont...')
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#7 {main}
+REQUEST_URI=/akmalo/index.php/site/hapus_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/21 10:38:53 [error] [exception.CHttpException.400] CHttpException: Your request is invalid. in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:337
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('hapus_kontak')
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/hapus_kont...')
+#5 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#6 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#7 {main}
+REQUEST_URI=/akmalo/index.php/site/hapus_kontak
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/23 13:13:30 [error] [exception.CHttpException.404] CHttpException: The system is unable to find the requested action "index". in /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php:486
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(270): CController->missingAction('')
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): CController->run('')
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#4 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/akmalo/index.php/
+HTTP_REFERER=http://localhost:3000/
+---
+2022/07/23 13:42:41 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:168)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/pilih_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (168)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/23 13:42:49 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:168)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/pilih_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (168)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/23 13:43:27 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:168)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/pilih_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (168)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/23 13:43:27 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:168)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/pilih_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (168)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/23 13:44:08 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:168)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/pilih_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (168)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/23 13:44:08 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:168)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/pilih_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (168)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/23 13:44:36 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:168)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/pilih_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (168)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
+2022/07/23 13:44:36 [error] [php] Undefined index: id_kategori_kontak (/Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php:168)
+Stack trace:
+#0 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(286): SiteController->runAction()
+#1 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CController.php(265): SiteController->runActionWithFilters()
+#2 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(282): SiteController->run()
+#3 /Volumes/Data Ku/ROOT_WEB/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Volumes/Data Ku/ROOT_WEB/yii/framework/base/CApplication.php(185): CWebApplication->processRequest()
+#5 /Volumes/Data Ku/ROOT_WEB/akmalo/index.php(16): CWebApplication->run()
+REQUEST_URI=/akmalo/index.php/site/pilih_kontak
+in /Volumes/Data Ku/ROOT_WEB/akmalo/protected/controllers/SiteController.php (168)
+in /Volumes/Data Ku/ROOT_WEB/akmalo/index.php (16)
